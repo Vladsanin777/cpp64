@@ -10,8 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "i18next": "^27.2.1",
+    "i18next-browser-languagedetector": "^8.3.1",
     "react": "^19.3.1",
-    "react-dom": "^19.3.1"
+    "react-dom": "^19.3.1",
+    "react-i18next": "^18.0.2",
+    "vite-plugin-mkcert": "^2.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.29.7",

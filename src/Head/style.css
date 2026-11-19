@@ -1,0 +1,64 @@
+div.head {
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 10px;
+    max-width: 100%;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+    align-self: flex-end;
+    top: 0px;
+    scrollbar-width: thin;
+    scrollbar-color: #aaaaaa44 transparent;
+}
+
+div.head.desktop {
+    margin-bottom: 0px;
+}
+div.head.mobile {
+    margin-top: 0px;
+    order: 1;
+}
+div.head-space {
+    min-width: 20%;
+    height: 100%;
+}
+
+button.head {
+    position: relative;
+    line-height: 1;
+    color: white;
+    border: none;
+    padding: 12px;
+    padding-left: 40px;
+    min-width: 146px;
+    border-radius: 50px;
+    white-space: nowrap;
+    display: flex;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+button.head.tab {
+    background-color: #432e59aa;
+}
+
+button.head.general {
+    background: linear-gradient(
+        100deg,
+        #8c00ff,
+        #e923f7,
+        #f7239b,
+        #ff8c00,
+        #ffc400
+    );
+}
+
+i.icon.general {
+    color: white;
+}
